@@ -67,6 +67,16 @@
     transform: scale(0.9);
 }
 
+
+.TermsAndConditionsA h3{
+    color:blue;
+    font-size: 2rem;
+}
+
+.Article h4{
+    color: blue;
+}
+
 @media screen and (max-width:884px) {
     .TermsAndConditions{
         width: 90%;
@@ -76,6 +86,7 @@
     .TermsAndConditionsA button{
         font-size: 1.5rem;
     }
+    
     
 }
 
