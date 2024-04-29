@@ -1,0 +1,454 @@
+.UIUXTrainingOfferWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    /* margin-bottom: 10vh; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.UIUXTrainingOffer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.UIUXTrainingOfferHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 255, 0.7);
+    text-align: center;
+}
+
+.UIUXTrainingOfferHeader h1{
+    font-size: 3rem;
+}
+.UIUXTrainingOfferBody{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.UIUXTrainingOfferBodyLeft{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+
+.UIUXTrainingOfferBodyLeft form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.UIUXTrainingOfferBodyLeft form label{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 10%; */
+    margin: 10px;
+    
+}
+
+.UIUXTrainingOfferInputLabelChild{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.UIUXTrainingOfferBodyLeft form label input{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    padding-left: 2%;
+    /* margin: 10px; */
+}
+
+.UIUXTrainingOfferBodyLeft form label input:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.UIUXTrainingOfferBodyRight{
+    width: 50%;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 0% 5%;
+    font-style: italic;
+    flex-direction: column;
+    gap:10%;
+    justify-content: flex-start;
+}
+
+.UIUXTrainingOfferBodyRight img{
+    width: 70%;
+    /* height: 100%; */
+    border-radius: 50%;
+}
+
+.CountryCityStateWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    gap: 5%;
+}
+
+.CountryCityStateWrap input{
+    width: 22%;
+    height: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    padding-left: 2%;
+}
+
+.CountryCityStateWrap input:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.UIUXTrainingOfferTextAreaWrap{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-left:10% ;
+}
+
+.UIUXTrainingOfferTextAreaWrap textarea{
+    width: 80%;
+    height: 100px;
+    resize: none;
+    outline: none;
+    padding: 1%;
+    border:  1px solid rgba(0, 0, 255, 0.5);
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.UIUXTrainingOfferTextAreaWrap textarea:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.UIUXTrainingOfferSubmitButtonWrap{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    gap:50%;
+    /* height: 7%; */
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: red; */
+
+}
+
+.UIUXTrainingOfferSubmitButtonWrap button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1rem;
+    padding: 15px;
+    /* width: 20%;
+    height: 70%; */
+}
+
+.UIUXTrainingOfferSubmitButtonWrap button:hover{
+    transform: scale(1.1);
+}
+
+.UIUXTrainingOfferSubmitButtonWrap button:active{
+    transform: scale(0.9);
+}
+
+.UIUXTrainingOfferFormSubmitUiWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.UIUXTrainingOfferFormSubmitUi{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+    padding: 5%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.UIUXTrainingOfferFormSubmitUi button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 20px;
+    /* width: 40%;
+    height: 25%; */
+}
+
+.UIUXTrainingOfferFormSubmitUi button:hover{
+    transform: scale(1.1);
+}
+
+.UIUXTrainingOfferFormSubmitUi button:active{
+    transform: scale(0.9);
+}
+
+.UIUXTrainingOfferBackButtonWrap{
+    display: flex;
+    width: 100%;
+    gap:50%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.UIUXTrainingOfferBackButtonWrap button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+.UIUXTrainingOfferBackButtonWrap button:hover{
+    transform: scale(1.1);
+}
+
+.UIUXTrainingOfferBackButtonWrap button:active{
+    transform: scale(0.9);
+}
+
+
+.UIUXTrainingOfferTermsAndConditionsAgreeWrap{
+    display: flex;
+    justify-content: center;
+    gap:2%;
+    align-items: center;
+    width: 100%;
+    /* height: 8%; */
+    flex-direction: column;
+    margin: 10px;
+    /* background-color: red; */
+}
+
+.UIUXTrainingOfferTermsAndConditionsAgreeWrap input{
+    cursor: pointer;
+}
+
+.UIUXTrainingOfferTermsAndConditionsAgreeWrap p span{
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+}
+
+.UIUXTrainingOfferTermsAndConditionsAgreeWrap p span:active{
+    transform: scale(1.2);
+}
+
+.UIUXTrainingOfferBodyRight{
+    
+    /* background-color: red; */
+}
+
+.UIUXTrainingImgWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    /* height: 40vh; */
+}
+
+.UIUXTrainingImgWrap img{
+    width: 100%;
+    /* height: 100%; */
+    animation: flip 5s infinite;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.UIUXTrainingformNote{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-left: 10%; */
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.UIUXTrainingOfferTermsAndConditionsAgreeWrapUp{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.UIUXTrainingOfferBackButtonWrap{
+    display: flex;
+    width: 100%;
+    gap:50%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.UIUXTrainingOfferBackButtonWrap button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+.UIUXTrainingOfferBackButtonWrap button:hover{
+    transform: scale(1.1);
+}
+
+.UIUXTrainingOfferBackButtonWrap button:active{
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:1024px) {
+    .UIUXTrainingOfferTermsAndConditionsAgreeWrapUp{
+        width: 70%;
+        /* background-color: red; */
+    }
+    .FrontEndTrainingImgWrap{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:768px) {
+   .UIUXTrainingOfferBody{
+    flex-direction: column;
+   }
+   .UIUXTrainingOfferBodyLeft{
+    width: 100%;
+    padding-left: 0;
+   }
+   .UIUXTrainingOfferBodyRight{
+    width: 100%;
+   }
+   .UIUXTrainingOfferHeader h1{
+    font-size: 2rem;
+}
+.UIUXTrainingOfferWrap{
+    padding-top: 100px;
+}
+.UIUXTrainingOfferBodyRight{
+    text-align: center;
+
+}
+.UIUXTrainingOfferTermsAndConditionsAgreeWrapUp{
+    width: 40%;
+}
+.FrontEndTrainingImgWrap{
+    width: 70%;
+    margin: 30px;
+}
+}
+
+
+@media screen and (max-width:428px) {
+    .UIUXTrainingOfferFormSubmitUi{
+        width: 90%;
+        font-size: 1.3rem;
+    }
+    .UIUXTrainingOfferFormSubmitUi button{
+        font-size: 1.2rem;
+    }
+    .UIUXTrainingOfferTermsAndConditionsAgreeWrapUp{
+        width: 100%;
+        justify-content: center;
+        gap:5px;
+        text-align: center;
+        /* background-color: red; */
+       }
+}
+
+@media screen and (max-width:320px) {
+   
+}

@@ -1,0 +1,453 @@
+.BusinessWebsiteOfferWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    /* margin-bottom: 10vh; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.BusinessWebsiteOffer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.BusinessWebsiteOfferHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 255, 0.7);
+    text-align: center;
+}
+
+.BusinessWebsiteOfferHeader h1{
+    font-size: 3rem;
+}
+.BusinessWebsiteOfferBody{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.BusinessWebsiteOfferBodyLeft{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+
+.BusinessWebsiteOfferBodyLeft form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.BusinessWebsiteOfferBodyLeft form label{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 10%; */
+    margin: 10px;
+    
+}
+
+.BusinessWebsiteOfferInputLabelChild{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.BusinessWebsiteOfferBodyLeft form label input{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    padding-left: 2%;
+    /* margin: 10px; */
+}
+
+.BusinessWebsiteOfferBodyLeft form label input:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.BusinessWebsiteOfferBodyRight{
+    width: 50%;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 0% 5%;
+    font-style: italic;
+    flex-direction: column;
+    gap:10%;
+    justify-content: flex-start;
+}
+
+.BusinessWebsiteOfferBodyRight img{
+    width: 70%;
+    /* height: 100%; */
+    border-radius: 50%;
+}
+
+.CountryCityStateWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    gap: 5%;
+}
+
+.CountryCityStateWrap input{
+    width: 22%;
+    height: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 255, 0.5);
+    padding-left: 2%;
+}
+
+.CountryCityStateWrap input:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.BusinessWebsiteOfferTextAreaWrap{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-left:10% ;
+}
+
+.BusinessWebsiteOfferTextAreaWrap textarea{
+    width: 80%;
+    height: 100px;
+    resize: none;
+    outline: none;
+    padding: 1%;
+    border:  1px solid rgba(0, 0, 255, 0.5);
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.BusinessWebsiteOfferTextAreaWrap textarea:hover{
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.BusinessWebsiteOfferSubmitButtonWrap{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    gap:50%;
+    /* height: 7%; */
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: red; */
+
+}
+
+.BusinessWebsiteOfferSubmitButtonWrap button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1rem;
+    padding: 15px;
+    /* width: 20%;
+    height: 70%; */
+}
+
+.BusinessWebsiteOfferSubmitButtonWrap button:hover{
+    transform: scale(1.1);
+}
+
+.BusinessWebsiteOfferSubmitButtonWrap button:active{
+    transform: scale(0.9);
+}
+
+.BusinessWebsiteOfferFormSubmitUiWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+
+.BusinessWebsiteOfferFormSubmitUi{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+    padding: 5%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.BusinessWebsiteOfferFormSubmitUi button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1.5rem;
+    padding: 20px;
+    margin: 20px;
+    /* width: 40%;
+    height: 25%; */
+}
+
+.BusinessWebsiteOfferFormSubmitUi button:hover{
+    transform: scale(1.1);
+}
+
+.BusinessWebsiteOfferFormSubmitUi button:active{
+    transform: scale(0.9);
+}
+
+.BusinessWebsiteOfferBackButtonWrap{
+    display: flex;
+    width: 100%;
+    gap:50%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.BusinessWebsiteOfferBackButtonWrap button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+.BusinessWebsiteOfferBackButtonWrap button:hover{
+    transform: scale(1.1);
+}
+
+.BusinessWebsiteOfferBackButtonWrap button:active{
+    transform: scale(0.9);
+}
+
+
+.BusinessWebsiteOfferTermsAndConditionsAgreeWrap{
+    display: flex;
+    justify-content: center;
+    gap:2%;
+    align-items: center;
+    width: 100%;
+    /* height: 8%; */
+    flex-direction: column;
+    margin: 10px;
+}
+
+.BusinessWebsiteOfferTermsAndConditionsAgreeWrap input{
+    cursor: pointer;
+}
+
+.BusinessWebsiteOfferTermsAndConditionsAgreeWrap p span{
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+}
+
+.BusinessWebsiteOfferTermsAndConditionsAgreeWrap p span:active{
+    transform: scale(1.2);
+}
+
+.BusinessWebsiteOfferBodyRight{
+    
+    /* background-color: red; */
+}
+
+.BusinessWebsiteImgWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    /* height: 40vh; */
+}
+
+.BusinessWebsiteImgWrap img{
+    width: 100%;
+    /* height: 100%; */
+    animation: flip 5s infinite;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.BusinessWebsiteformNote{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-left: 10%; */
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.BusinessWebsiteOfferTermsAndConditionsAgreeWrapUp{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.BusinessWebsiteOfferBackButtonWrap{
+    display: flex;
+    width: 100%;
+    gap:50%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.BusinessWebsiteOfferBackButtonWrap button{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to bottom, rgb(179, 179, 231), blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 350ms;
+    font-size: 1rem;
+    padding: 15px;
+}
+
+.BusinessWebsiteOfferBackButtonWrap button:hover{
+    transform: scale(1.1);
+}
+
+.BusinessWebsiteOfferBackButtonWrap button:active{
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:1024px) {
+    .BusinessWebsiteOfferTermsAndConditionsAgreeWrapUp{
+        width: 70%;
+        /* background-color: red; */
+    }
+    .BusinessWebsiteImgWrap{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:768px) {
+   .BusinessWebsiteOfferBody{
+    flex-direction: column;
+   }
+   .BusinessWebsiteOfferBodyLeft{
+    width: 100%;
+    padding-left: 0;
+   }
+   .BusinessWebsiteOfferBodyRight{
+    width: 100%;
+   }
+   .BusinessWebsiteOfferHeader h1{
+    font-size: 2rem;
+}
+.BusinessWebsiteOfferWrap{
+    padding-top: 100px;
+}
+.BusinessWebsiteOfferBodyRight{
+    text-align: center;
+
+}
+.BusinessWebsiteOfferTermsAndConditionsAgreeWrapUp{
+    width: 40%;
+}
+.BusinessWebsiteImgWrap{
+    width: 70%;
+    margin: 30px;
+}
+}
+
+
+@media screen and (max-width:428px) {
+    .BusinessWebsiteOfferFormSubmitUi{
+        width: 90%;
+        font-size: 1.3rem;
+    }
+    .BusinessWebsiteOfferFormSubmitUi button{
+        font-size: 1.2rem;
+    }
+    .BusinessWebsiteOfferTermsAndConditionsAgreeWrapUp{
+        width: 100%;
+        justify-content: center;
+        gap:5px;
+        text-align: center;
+        /* background-color: red; */
+       }
+}
+
+@media screen and (max-width:320px) {
+   
+}
